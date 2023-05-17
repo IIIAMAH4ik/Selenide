@@ -10,7 +10,7 @@ class CallbackTest {
     @Test
     void shouldTestForm() {
         open("http://localhost:9999/");
-        $("[data-test-id=name] input").setValue("Хосе-Игнасио");
+        $("[data-test-id=name] input").setValue("Пупа-лупа");
         $("[data-test-id=phone] input").setValue("+79033003030");
         $("[data-test-id=agreement]").click();
         $("button").click();
